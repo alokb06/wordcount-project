@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<a href = "http://127.0.0.1:8000/">Start Page</a>
+<body>
+<h1> Total words in given paragraph are {{count_text}}</h1>
+{% for word, counttotal in worddictionary %}
+{{word}} - {{counttotal}}
+</br>
+{% endfor %}
+<h1>{{wordictionary}}</h1>
+</body>
+</html>
